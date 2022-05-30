@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #using while in bash 
-x=1
+x=0
 while [ $x  -le 10 ]
 do
         if [ $x -ne 9 ]
