@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#using while in bash 
+while [ $(./2-while_best_school | wc -l) < 10 ]
+do
+	echo "Best School"
+done
