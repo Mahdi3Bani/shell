@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #checking a file
-school="hello world"
 if [ -e "$school" ]
 then 
 	echo 'school file exists'
