@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #checking a file 
-school="holbertonschool"
 
 if [ ! -e school ]
 
