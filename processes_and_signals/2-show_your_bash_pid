@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displaying my bash id 
+# shellchek disable =SC2009
+ps faux | grep "bash"
