@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #WHY YOU NO LOVE MEEE
-sudo touch /var/run/holbertonscript.pid
-sudo bash -c 'echo $$ > /var/run/holbertonscript.pid'
-while 1
+touch /var/run/holbertonscript.pid
+echo $$ > /var/run/holbertonscript.pid
+while true
 do
     echo "To infinity and beyond"
     sleep 2
